@@ -1,6 +1,7 @@
 ## 2.1.5-wip
 
 - Fixed `Matrix3.rotationY` direction (Contributed by tlserver, moritzblume)
+- Fixed `operator -()` of Quaternion (Contributed by tlserver)
 - Added an operator== to Quaternion so that two instances of quaternions can
   be evaluated for equality.
 - Require Dart 3.0
